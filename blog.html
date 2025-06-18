@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modul Elektronika Digital</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- AOS for animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding-bottom: 80px;
+    }
+
+    .modul-header {
+      background: linear-gradient(to right, #0d6efd, #3d8bfd);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .modul-header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .modul-content {
+      background: white;
+      margin-top: -40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      padding: 40px 25px;
+    }
+
+    .section-title {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .parallax {
+      background: url('') center center / cover no-repeat fixed;
+      height: 200px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .parallax::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
+
+    .parallax-text {
+      color: white;
+      font-size: 1.6rem;
+      text-align: center;
+      padding-top: 80px;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Judul Materi -->
+  <header class="modul-header" data-aos="fade-down">
+    <div class="container">
+      <h1>Materi 01: Gerbang Logika Dasar</h1>
+      <p class="lead">Modul Interaktif Praktikum Elektronika Digital</p>
+    </div>
+  </header>
+
+  <!-- Parallax Strip -->
+  <div class="parallax">
+    <div class="parallax-text" data-aos="zoom-in">Belajar Menjadi Lebih Visual & Praktis</div>
+  </div>
+
+  <!-- Konten Deskripsi -->
+  <main class="container modul-content mt-5" data-aos="fade-up">
+    <div class="section-title">Deskripsi Materi</div>
+    <p>
+      Pada materi ini, Anda akan mempelajari dasar-dasar logika digital yang merupakan fondasi dari seluruh sistem elektronik digital. Fokus utama adalah memahami fungsi dan bentuk dari gerbang logika seperti AND, OR, NOT, NAND, NOR, XOR, dan XNOR.
+    </p>
+    <p>
+      Setiap gerbang logika memiliki tabel kebenaran yang unik, dan penggunaannya sangat penting dalam merancang rangkaian digital, seperti sistem kendali, komputer, dan perangkat digital lainnya. Dengan simulasi digital dan penerapan langsung, Anda akan lebih mudah memahami prinsip-prinsip dasar logika ini.
+    </p>
+    <p>
+      Pastikan Anda mengikuti praktik dengan seksama dan mencoba semua variasi input-output dari setiap gerbang. Tujuan akhir dari materi ini adalah Anda mampu:
+      <ul>
+        <li>Menjelaskan fungsi dasar gerbang logika</li>
+        <li>Menganalisis tabel kebenaran</li>
+        <li>Mendesain rangkaian sederhana menggunakan gerbang logika</li>
+      </ul>
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Modul Interaktif Elektronika Digital - Politeknik Negeri Manado
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

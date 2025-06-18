@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flip-Flop Dasar (RS, D, JK, T)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(135deg, #e9f2eb, #ffffff);
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-weight: bold;
+    }
+    .section-content {
+      padding: 60px 20px;
+    }
+    .text-justify {
+      text-align: justify;
+    }
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .btn-lanjut {
+      background: #0d6efd;
+      color: white;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+    .btn-lanjut:hover {
+      background: #0b5ed7;
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="container">
+      <h1 class="display-5">Flip-Flop Dasar (RS, D, JK, T)</h1>
+      <p class="lead">Materi Dasar Praktikum Elektronika Digital</p>
+    </div>
+  </div>
+
+  <!-- Materi Section -->
+  <div class="section-content">
+    <div class="container">
+
+      <!-- Sub Judul 1 -->
+      <h3 class="mb-4 text-center">Konsep Penyimpanan Data 1 Bit dan Fungsi Clock</h3>
+      <p class="text-justify">Flip-flop adalah elemen dasar dari memori digital yang mampu menyimpan satu bit data. Komponen ini berperan penting dalam sistem sekuensial karena ia menyimpan nilai logika dalam jangka waktu tertentu, bergantung pada sinyal kendali (clock). Setiap jenis flip-flop (RS, D, JK, T) memiliki karakteristik unik dalam bagaimana ia menyimpan dan memperbarui data, biasanya berdasarkan sinyal naik (rising edge) atau turun (falling edge) dari clock. Sebagai contoh, flip-flop tipe D sering digunakan untuk menyimpan data sinkron dalam register karena sangat sederhana — data akan tersimpan saat sinyal clock aktif.Sistem bilangan merupakan cara untuk merepresentasikan angka dalam berbagai bentuk dasar seperti biner (basis 2), desimal (basis 10), oktal (basis 8), dan heksadesimal (basis 16). Dalam dunia elektronika digital, sistem bilangan biner sangat penting karena sistem digital hanya mengenal dua keadaan logika yaitu 0 dan 1. Angka-angka dalam sistem ini digunakan untuk pengolahan data, penyimpanan informasi, dan operasi logika dalam perangkat elektronik.
+      </p>
+
+      <!-- Sub Judul 2 -->
+      <h3 class="mt-5 mb-4 text-center">Perbandingan Karakteristik Flip-Flop (RS, D, JK, T)</h3>
+      <p class="text-justify">
+        Tipe-tipe flip-flop memiliki fungsi berbeda:
+RS (Set-Reset) untuk menyimpan nilai berdasarkan logika dasar;
+D (Data) untuk menyimpan nilai input saat clock aktif;
+JK merupakan versi yang lebih fleksibel dari RS;
+sedangkan T (Toggle) berguna untuk mengubah nilai secara bergantian.
+Pemilihan jenis flip-flop tergantung kebutuhan — misalnya dalam rangkaian counter, flip-flop T lebih sering digunakan karena kemampuannya beralih status setiap siklus clock, menciptakan efek pencacah otomatis.
+      </p>
+    </div>
+  </div>
+
+  <!-- Gambar Section -->
+  <div class="section-content bg-light">
+    <div class="container text-center">
+      <h4 class="mb-4">Contoh Ilustrasi Logika Digital</h4>
+      <img src="img/6.jpeg" class="img-fluid rounded shadow" alt="Ilustrasi logika digital">
+      <p class="mt-3 text-muted">Flip flop.</p>
+    </div>
+  </div>
+
+  <!-- Tombol Lanjut -->
+  <div class="section-content text-center">
+    <a href="halaman2.html" class="btn-lanjut">Lanjut ke Materi Selanjutnya</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Praktikum Elektronika Digital - Politeknik Negeri Manado</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

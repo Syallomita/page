@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rangkaian Pencacah (Counter)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: linear-gradient(135deg, #e9f2eb, #ffffff);
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-weight: bold;
+    }
+    .section-content {
+      padding: 60px 20px;
+    }
+    .text-justify {
+      text-align: justify;
+    }
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .btn-lanjut {
+      background: #0d6efd;
+      color: white;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+    .btn-lanjut:hover {
+      background: #0b5ed7;
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="container">
+      <h1 class="display-5">Rangkaian Pencacah (Counter)</h1>
+      <p class="lead">Materi Dasar Praktikum Elektronika Digital</p>
+    </div>
+  </div>
+
+  <!-- Materi Section -->
+  <div class="section-content">
+    <div class="container">
+
+      <!-- Sub Judul 1 -->
+      <h3 class="mb-4 text-center">Konsep Dasar Counter: Up, Down, dan Clock Pulse</h3>
+      <p class="text-justify">
+        Rangkaian pencacah (counter) adalah jenis rangkaian logika sekuensial yang digunakan untuk menghitung pulsa clock secara bertahap. Ada dua jenis utama counter: up counter, yang menghitung naik (0 → 1 → 2...), dan down counter, yang menghitung turun (9 → 8 → 7...). Counter ini biasanya dibangun dari rangkaian flip-flop, di mana setiap flip-flop mewakili satu bit dalam sistem biner. Ketika pulsa clock diberikan, flip-flop akan mengubah statusnya dan memengaruhi bit berikutnya secara berantai, baik secara sinkron (semua flip-flop menerima clock bersamaan) maupun asinkron (flip-flop menerima clock secara bergantian dari output flip-flop sebelumnya).
+      </p>
+
+      <!-- Sub Judul 2 -->
+      <h3 class="mt-5 mb-4 text-center">Penggunaan Counter dalam Aplikasi Dunia Nyata</h3>
+      <p class="text-justify">
+        Counter sering digunakan dalam berbagai aplikasi, mulai dari stopwatch digital, jam digital, hingga penghitung item dalam sistem produksi otomatis. Selain itu, mereka juga digunakan dalam sistem pengendali lampu lalu lintas, frekuensi pengukuran, dan dalam konversi analog ke digital (ADC). Pemahaman cara kerja counter membuka wawasan lebih luas tentang bagaimana sistem digital menyimpan, menghitung, dan merepresentasikan waktu atau kejadian berurutan secara akurat.
+      </p>
+    </div>
+  </div>
+
+  <!-- Gambar Section -->
+  <div class="section-content bg-light">
+    <div class="container text-center">
+      <h4 class="mb-4">Ilustrasi</h4>
+      <img src="img/7.jpeg" class="img-fluid rounded shadow" alt="Ilustrasi logika digital">
+      <p class="mt-3 text-muted">Rangkaian pencacah</p>
+    </div>
+  </div>
+
+  <!-- Tombol Lanjut -->
+  <div class="section-content text-center">
+    <a href="halaman2.html" class="btn-lanjut">Lanjut ke Materi Selanjutnya</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Praktikum Elektronika Digital - Politeknik Negeri Manado</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
